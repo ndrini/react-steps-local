@@ -74,7 +74,7 @@ function Step() {
   return (
     <div>
       <h1>Title: {step_obj.title}</h1>
-      <img src={step_obj.image_path} alt=""/>
+      <img src={step_obj.image_path} alt="" />
       <p>Description: {step_obj.description}</p>
 
       {step_obj.choices.map((singleChoice) => (
@@ -85,6 +85,9 @@ function Step() {
       ))}
 
       {step !== '0' ? <BackButton text_button="start again" code="0" /> : null}
+
+      <img src={require('./images/img_000.jpeg')}
+        alt="copertina del volume 10 occasioni per diventare NV" />
     </div>
   );
 }
