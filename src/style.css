@@ -1,0 +1,17 @@
+h1,
+p {
+  font-family: Lato;
+}
+.button_green {
+  background-color: #b3e3de;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.button_blue {
+  background-color: #244180;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
