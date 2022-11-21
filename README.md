@@ -2,6 +2,20 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+## Launch with
+
+    $ yarn install
+
+
+Actually is yarn v1.22.10
+
+And update node if necessary (use nvm, so `nvm install 18.0.0`). 
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
