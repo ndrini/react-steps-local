@@ -6,23 +6,23 @@
       "description": "Mettiti alla prova trovando le soluzioni in uno dei 10 casi che seguono.",
       "choices": [
         {
-          "code": "C1",
+          "code": "1",
           "text_button": "Mi sembra che i miei vicini siano troppo allegri"
         },
         {
-          "code": "C2",
+          "code": "2",
           "text_button": "Mi sembra che i miei nuovi colleghi pretendono troppo."
         },
         {
-          "code": "C3",
+          "code": "3",
           "text_button": "mi sembra che si che si fischia la mia compagna."
         }
       ]
     },
     {
-      "code": "C1",
+      "code": "1",
       "title": "At left position",
-      "image_path": "https://i.picsum.photos/id/550/200/300.jpg?blur=5&hmac=jdbIJbctWUQQYmvZ1m7dT1-yPNfxCHfBaTJgMWjKwCo",
+      "image_path": "./images/1/1.jpg",
       "description": "Vicini: Bom bom bom bom     Uomo: 'Tesoro, abbassa il volume'      Donna: 'Ma non sono io, cara! Ci risiamo, sono i vicini!     ...se ti trovassi in questa situazione quale di queste tre azioni del nostro protagonista sceglieresti?",
       "choices": [
         {
@@ -38,7 +38,7 @@
     {
       "code": "1.1",
       "title": "Prendo un flacone di tranquillanti",
-      "image_path": "https://i.picsum.photos/id/158/200/300.jpg?blur=5&hmac=zBG__2c59b4wLtKodZRxUbgYQJXGHZx61S7ZES46nCw",
+      "image_path": "./images/1/1.1.png",
       "description": "Uomo: 'Prendo un flacone di tranquillanti... ehm... ne vuoi un po'?'...ora scegli una delle due opzioni qui sotto:",
       "choices": [
         {

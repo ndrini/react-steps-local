@@ -22,11 +22,13 @@ import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 
+// import all images
+import img_1_1 from './images/1/1.jpg'
+import img_1_1_1 from './images/1/1.1.png'
+
 // import the possible steps
 // const steps = require('./src/steps.json');
-
 // import steps from './steps.json';
-
 let steps = require('./steps');
 
 // const steps = require('/home/an/workspace/react-steps/src/steps.json');
@@ -37,7 +39,8 @@ console.log("________________________________", steps);
  * Provide the main page Component that shows
  * description and the choices
  *
- * "step" it actual step, and defines the page to show by the code (of type string)
+ * "step" is the actual step, 
+ * and defines the page to show by the code (of type string)
  */
 function Step() {
   const [step, setStep] = useState('0');
@@ -71,10 +74,20 @@ function Step() {
     );
   }
 
+  function create_image_name(image_path) {
+    if (image_path === "./images/1/1.jpg") {
+      return img_1_1
+    }
+    if (image_path === "./images/1/1.1.png") {
+      return img_1_1_1
+    }
+    return (img_1_1_1)
+  }
+
   return (
     <div>
       <h1>Title: {step_obj.title}</h1>
-      <img src={step_obj.image_path} alt="" />
+      <img src={create_image_name(step_obj.image_path)} alt="" />
       <p>Description: {step_obj.description}</p>
 
       {step_obj.choices.map((singleChoice) => (
