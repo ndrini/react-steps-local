@@ -24,7 +24,7 @@ import './style.css';
 
 // import all images
 import img_1_1 from './images/1/1.jpg'
-import img_1_1_1 from './images/1/1.1.png'
+import img_1_1_1 from './images/1/1.1.jpg'
 
 // import the possible steps
 // const steps = require('./src/steps.json');
