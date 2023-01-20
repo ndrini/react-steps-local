@@ -78,7 +78,7 @@ function Step() {
     if (image_path === "./images/1/1.jpg") {
       return img_1_1
     }
-    if (image_path === "./images/1/1.1.png") {
+    if (image_path === "./images/1/1.1.jpg") {
       return img_1_1_1
     }
     return (img_1_1_1)

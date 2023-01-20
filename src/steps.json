@@ -38,12 +38,12 @@
     {
       "code": "1.1",
       "title": "Prendo un flacone di tranquillanti",
-      "image_path": "./images/1/1.1.png",
+      "image_path": "./images/1/1.1.jpg",
       "description": "Uomo: 'Prendo un flacone di tranquillanti... ehm... ne vuoi un po'?'...ora scegli una delle due opzioni qui sotto:",
       "choices": [
         {
           "code": "1.1.1",
-          "text_button": "Useró dei cuscini"
+          "text_button": "Userò dei cuscini"
         },
         {
           "code": "1.1.2",
